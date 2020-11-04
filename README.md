@@ -18,3 +18,10 @@ As usual, the name comes from some person who lived a long time ago called Fouri
 
 The property says that by taking fourier transform of both image and kernel and multiply in frequency domain, and then taking inverse fourier transform, we can get the resultant same or very similiar as the resultant of convolution.
 
+## Output after Convolution
+
+![](/media/cnnoutput.png)
+
+## Output after applying FFT property
+
+![](/media/fftoutput.jpg)
