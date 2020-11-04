@@ -25,3 +25,11 @@ The property says that by taking fourier transform of both image and kernel and 
 ## Output after applying FFT property
 
 ![](/media/fftoutput.jpg)
+
+## Conclusion 
+I predicted 253 different images with both models. Time taken by CNN to predict class for 253 images is 188.1543300151825 and Time taken by FFT to predict class for 253 images is 39.134761571884155. It reduced the time by the factor of 4.807856811.
+Conclusion: The FFT layers is ~5 times faster than Convolution layers. And we attain same dimension after FFT layers without padding.
+
+## Contributing
+
+If you find a bug, create a GitHub issue, or even better, submit a pull request. Similarly, if you have questions, simply post them as GitHub issues.
